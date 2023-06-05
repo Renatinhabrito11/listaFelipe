@@ -22,6 +22,6 @@ public class Recarga {
     public String toString() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         String dataStr = dateFormat.format(data.getTime());
-        return "Data: " + dataStr + ", Valor: R$ " + valor;
+        return "Data: "+ dataStr +", Valor: R$" + valor;
     }
 }
