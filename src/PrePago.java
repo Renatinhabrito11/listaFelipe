@@ -6,7 +6,7 @@ public class PrePago {
     private float creditos;
 
     public PrePago(long cpf, String nome, long numeroTelefone) {
-        recargas = new Recarga[90]; // Define o tamanho inicial do vetor de recargas
+        recargas = new Recarga[100]; // Define o tamanho inicial do vetor de recargas
         numRecargas = 0;
         creditos = 0;
     }
